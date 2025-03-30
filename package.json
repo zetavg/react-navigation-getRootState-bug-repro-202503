@@ -1,0 +1,31 @@
+{
+  "name": "expo-react-navigation-basic",
+  "main": "./AppEntry.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@react-navigation/core": "^7.7.0",
+    "@react-navigation/routers": "^7.3.1",
+    "expo": "^52",
+    "react": "18.2.0",
+    "react-dom": "18.3.1",
+    "react-native": "^0.76",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "@types/react-dom": "^18",
+    "@types/react-native-web": "^0",
+    "typescript": "^5.3.3"
+  }
+}
